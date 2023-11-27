@@ -1,0 +1,6 @@
+keycloak:
+  realm: my_realm_app1
+  resource: ebank_app_ms
+  bearer-only: true
+  ssl-required: none
+  auth-server-url: http://localhost:8080
